@@ -11,5 +11,6 @@ public class HelloWorld {
         // Описываем что загрузится по адресу /
         app.get("/", ctx -> ctx.result("Hello World"));
         app.start(8080); // Стартуем веб-сервер
+        System.out.println("test");
     }
 }
